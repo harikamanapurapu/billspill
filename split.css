@@ -1,0 +1,217 @@
+.maincontainer{
+    background-color: rgb(160, 148, 172);
+    height: 100vh;
+    padding: 0;
+    background-size: cover;
+}
+.heading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
+}
+.white-container{
+    width: 700px;
+    height: 370px;
+   background-color: white;
+   border-radius: 10px;
+    margin:auto;
+    padding: 20px;
+}
+ p{
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ input[type=number]{
+    width: 98%;
+    padding: 12px 20px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color:rgb(160, 148, 172);
+    color: blueviolet;
+    outline: none;
+    text-align: right;
+
+ }
+#people {
+    -moz-appearance: textfield;
+    background-image: url(people.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+  }
+#inputnum{
+    -moz-appearance: textfield;
+    background-image: url(money.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+
+}
+.bill-generation{
+    width: 98%;
+    background: #FBFAFB;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.43);
+    border:none;
+    border-radius: 2px;
+    padding: 5px;
+    margin-top: 3px;
+    font-size: 15px;
+
+
+}
+
+.input-icons i{
+    position: absolute;
+    margin-top: 20px;
+}
+.input-icons i {
+    width: 100%;
+    margin-bottom: 10px;
+    color: blueviolet;
+    margin-left: 10px;
+}
+.selecttip{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.tipcontainer{
+    width: 94px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border-width: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 15px;
+    margin-right: 7px;
+}
+.numberpep{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.calcontainer{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(160, 148, 172);
+
+}
+.plus{
+    width: 31px;
+   height: 41px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   border-width: 2px;
+   border-color: black;
+
+   color: black;
+   margin: 0px;
+}
+.peoplebtn{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color:rgb(160, 148, 172);
+    color: blueviolet;
+    outline: none;
+    border-style: double;
+
+}
+.peoplecontainer > input{
+    width: 200px;
+    margin-top: 0px;
+
+}
+.input-icons2 i{
+    position: absolute;
+    margin-top: 12px;
+}
+.input-icons2 i {
+    width: 100%;
+    margin-bottom: 10px;
+    color: blueviolet;
+    margin-left: 10px;
+}
+.bluecontainer{
+
+    width: 340px;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    margin-left: 30px;
+    padding: 10px;
+    padding-block: 50px 20px;
+  }
+  .amount{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 25px;
+
+}
+.person{
+    color:rgb(160, 148, 172) ;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+.zerorupees{
+    color: rgb(160, 148, 172);
+    padding: auto;
+    font-size: 36px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 70px;
+}
+.total{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 25px;
+}
+.zerorupees2{
+    color: rgb(160, 148, 172);
+
+    padding: auto;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-left: 125px;
+    margin-right: 10px;
+}
+.reset{
+    color: blueviolet;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.resetcontainer{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(160, 148, 172);
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+    color: blueviolet;
+    margin-right: 10px;
+    border-width: 0px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+

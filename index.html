@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="split.css">
+        <script src="split.js"></script>
+    </head>
+    <body>
+        <div class="maincontainer">
+            <div class="heading">
+                <h1>B I L L </h1>
+                <h1>S P I L L</h1>
+            </div>
+            <div class="white-container" >
+                <div style="display: flex;">
+                    <div>
+                        <p>B I L L</p>
+                        <div class="amountcontainer">
+                            <div class="input-icons">
+                                <i class="fa-solid fa-indian-rupee-sign"></i>
+                            </div>
+                                <div>
+                                    <input type="number" placeholder="0.0" id="inputnum">
+                                </div>
+                        </div>
+                        <p class="selecttip">Select  Tip%</p>
+                        <div style="display: flex;">
+
+                            <button class="tipcontainer" id="btn5" onclick="calculationOfTip5()">5%</button>
+                            <button class="tipcontainer" id="btn10" onclick="calculationOfTip10()">10%</button>
+                            <button class="tipcontainer" id="btn15" onclick="calculationOfTip15()">15%</button>
+
+                        </div>
+                        <div style="margin-top: 10px; display: flex;">
+                            <button class="tipcontainer" id="btn25" onclick="calculationOfTip25()">25%</button>
+                            <button class="tipcontainer" id="btn50" onclick="calculationOfTip50()">50%</button>
+                            <button class="tipcontainer"id="btn75" onclick="calculationOfTip75()">75%</button>
+                        </div>
+                        <p class="numberpep" id="personcount">Number of people</p>
+                        <div class="peoplecontainer">
+                            <div class="input-icons2">
+                                <i class="fa-solid fa-user-large"></i>
+                            </div>
+                            <input type="number" placeholder="0" id="people">
+                            <button class="plus" id="plusbtn" onclick="onincrement()">+</button>
+                            <button class="plus" id="zerobtn" style="color: blueviolet;" onclick="zero()">0</button>
+                            <button class="plus" id="minusbtn" onclick="ondecrement()">-</button>
+                        </div>
+                    </div>
+
+                <div class="bluecontainer">
+                    <div style="display: flex;">
+                        <div>
+                          <p class="amount"  >Tip Amount<br><span class="person">/ Person</span></p>
+                        </div>
+                        <div>
+                          <p class="zerorupees" id="amountip">₹0.00</p>
+                        </div>
+
+                    </div>
+                    <div style="display: flex;">
+                        <div>
+                          <p class="total" >Total<br><span class="person">/ Person</span></p>
+                        </div>
+                        <div>
+                          <p class="zerorupees2" id="totalamount" >₹0.00</p>
+                        </div>
+                    </div>
+                    <button class="resetcontainer" id="btnreset" onclick="Reset()">RESET</button>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
